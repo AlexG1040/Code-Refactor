@@ -1,3 +1,4 @@
+/* the sites main background */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,14 +8,14 @@
 body {
     background-color: #d4d4d4;
 }
-
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #d4d4d4;
     color: #1a1c6b;
 }
-
+/* header text styling */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* the sites main photo styling ?? */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* start of the three 3 sub section styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,6 +134,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end of the sublinks styling */
+
+/* start of the content styling*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -142,7 +146,6 @@ p {
     background-color: #426c84;
     color: #ffffff;
     flex-wrap: wrap;
-    @media screen and (max-width: 992px)
 }
 
 .online-reputation-management {
@@ -153,7 +156,6 @@ p {
     background-color: #225694;
     color: #ffffff;
     flex-wrap: wrap;
-    @media screen and (max-width: 768px)
 }
 
 .social-media-marketing {
@@ -164,7 +166,6 @@ p {
     background-color: #426c84;
     color: #ffffff;
     flex-wrap: wrap;
-    @media screen and (max-width: 576px)
 }
 
 .search-engine-optimization img {
@@ -193,6 +194,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end of content styling*/
+
+/* star of footer section*/
 
 .footer {
     padding: 30px;
@@ -204,12 +208,24 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*end of footer section*/
 
-@media screen and (max-width: 992px){
+/* screen sizing for differrent sized screens */
 
+@media screen and (max-width: 992px) {
+    * {
+    background-color: #d4d4d4;
+    }
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 700px) {
+    * {
+    background-color: #d4d4d4;
+    }
 }
 
+@media screen and (max-width: 576px) {
+    * {
+    background-color: #d4d4d4;
+    }
+}
